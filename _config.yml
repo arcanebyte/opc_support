@@ -8,14 +8,14 @@
 title:              Rackspace Private Cloud Support
 description:        Support and knowledge base for Rackspace Private Cloud products.
 
-# Site subpath, e.g. /blog
-baseurl:            ""
+# Site base hostname & protocol, e.g. http://example.com
+url:                "arcanebyte.github.io"
+baseurl:            "/opc_support"
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 permalink:          /:title/
 
-# Site base hostname & protocol, e.g. http://example.com
-url:                "http://www.arcanebyte.com/rpc"
+
 
 # Site logo, dark and light depending on page hero text setting dark/light
 logo_image:
