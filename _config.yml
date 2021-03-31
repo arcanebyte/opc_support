@@ -1,0 +1,83 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site title and description
+title:              Rackspace Private Cloud Support
+description:        Support and knowledge base for Rackspace Private Cloud products.
+
+# Site subpath, e.g. /blog
+baseurl:            ""
+
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title/
+
+# Site base hostname & protocol, e.g. http://example.com
+url:                "http://www.arcanebyte.com/rpc"
+
+# Site logo, dark and light depending on page hero text setting dark/light
+logo_image:
+    light:          logo-cloud-light.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
+    dark:           logo-cloud-dark.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
+
+# Author settings, displayed on about page
+author:
+    name:           RPC Support
+    email:          james.denton@rackspace.com
+    website:        https://www.rackspace.com
+    facebook:       
+    flickr:
+    dribbble:
+    github:         https://github.com/rcbops
+    googleplus:
+    instagram:      
+    linkedin:
+    pinterest:
+    twitter:
+    vimeo:          
+    youtube:
+
+# Social share buttons
+twitter_username:
+github_username:
+
+# Default footer image settings
+footer:
+    copyright:      Site by <a href="https://www.rackspace.com/">Rackspace Private Cloud</a>.
+
+# Disqus comments shortname, requires Disqus account https://disqus.com/
+disqus:
+    shortname:      # 7865
+
+# Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics:
+
+# Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
+google_maps_api_key:
+
+# Path to post content assets directory i.e post images, pdfs etc
+post_assets:        /assets/posts/
+
+# Build settings
+markdown:           kramdown
+highlighter:        rouge
+
+# gems is deprecated in favor of plugins
+#gems:
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-gist
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+sass:
+  style:            compressed
+
+collections:
+  faqs:
+    output: false

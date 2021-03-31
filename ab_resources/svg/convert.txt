@@ -1,0 +1,3 @@
+To convert, use the following syntax:
+
+$ rsvg-convert neutron.svg -f svg -h 20 -a -o neutron-small.svg

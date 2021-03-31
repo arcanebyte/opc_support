@@ -1,0 +1,51 @@
+# Categories home page navigation
+
+- heading: Browse All Topics
+  categories:
+    - title: Compute
+      desc: Nova and other virtualization technologies
+      icon: nova
+
+    - title: Networking
+      desc: Neutron, load balancing and general networking
+      icon: neutron
+
+    - title: Storage
+      desc: Ceph, Cinder, Swift and other storage technologies
+      icon: cinder
+
+    - title: Identity
+      desc: Keystone and other authentication technologies
+      icon: keystone
+
+    - title: Image
+      desc: Glance, snapshots, and more
+      icon: glance
+
+    - title: Baremetal
+      desc: Ironic baremetal provisioning
+      icon: ironic
+
+    - title: Kubernetes
+      desc: K8s deployments and operations
+      icon: k8s
+
+    - title: Red Hat OSP
+      desc: Red Hat OpenStack operations and support
+      icon: osp
+
+    - title: OpenStack-Ansible
+      desc: OpenStack-Ansible operations and support
+      icon: osa
+
+    - title: Architecture
+      desc: Supported architectures and features
+      icon: deploy
+      
+    - title: Deployment
+      desc: General deployment guides and diagrams
+      icon: deploy
+
+    - title: Everything Else
+      desc: Heat, Designate, and everything else without a home
+      icon: other
