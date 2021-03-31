@@ -63,6 +63,7 @@ post_assets:        /assets/posts/
 # Build settings
 markdown:           kramdown
 highlighter:        rouge
+remote_theme:       arcanebyte/opc_support
 
 # gems is deprecated in favor of plugins
 #gems:
